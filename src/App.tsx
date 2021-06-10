@@ -7,6 +7,7 @@ import Pokedex from './components/Pokedex';
 import { theme } from './components/shared';
 import Footer from 'components/Footer';
 import globalStyles from './globaStyles';
+import { SearchBox } from 'components/SearchBox';
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
                 <h1>
                     Gotta <span className="red">search'em</span> all
                 </h1>
+                <SearchBox />
                 <Pokedex />
                 <Footer />
             </Container>
